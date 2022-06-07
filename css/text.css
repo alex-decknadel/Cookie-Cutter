@@ -1,0 +1,83 @@
+/*
+Title: Cookie Cutter text.css
+Name: Alex Decknadel
+Chemeketa Community College
+Class: CIS295
+Date: 04/14/2017
+Description: This document will stylize and describe the text
+             used throughout my Cookie Cutter website.
+*/
+
+
+/* These rules stylize the Site Menu and links for the website's pages */
+
+.submenu {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	text-decoration: underline;
+	font-size: 11px;
+
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: underline;
+}
+
+
+/* These will stylize classes of text throughout the website */
+
+.text {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.titles {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    font-variant: normal;
+    font-style: normal;
+    line-height: normal;
+    text-transform: lowercase;
+    letter-spacing: 4px;
+}
+
+.smalltext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    color: #666666;
+}
+
+.largetext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    word-spacing: normal;
+    letter-spacing: 1px;
+    font-weight: bold;
+}

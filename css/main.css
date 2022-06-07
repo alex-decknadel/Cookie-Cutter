@@ -1,0 +1,84 @@
+/*
+Title: Cookie Cutter main.css
+Name: Alex Decknadel
+Chemeketa Community College
+Class: CIS295
+Date: 04/14/2017
+Description: This document will stylize and describe general
+             styles on my Cookie Cutter website.
+*/
+
+
+/* These CSS rules will style elements in documents that use this document */
+
+nav {
+    float: left;
+    width: 7.5%;
+    margin-left: 13%;
+}
+
+div {
+    text-align: center;
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    margin-left: 15%;
+    width: 70%;
+    padding-bottom: 1em;
+}
+
+footer {
+    float: right;
+    border-top: solid;
+    width: 70%;
+    text-align: right;
+    margin-right: 15%;
+    margin-top: 4em;
+    border-width: thin;
+}
+
+main {
+    width: 60%;
+    float: right;
+    border-style: ridge;
+    margin-right: 15%;
+    margin-top: 1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: .75em;
+}
+
+body {
+    background-color: #F8F8FF;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+/* These CSS rules will style classes in documents that use this document */
+
+.first {
+    width: 70%;
+    float: right;
+    margin-top: 2.3em;
+    padding-right: 10%;
+    align-content: center;
+}
+
+/* These CSS rules will style elements with unique identifiers */
+
+#pagetitle {
+    border-top-style: solid;
+    border-width: thin;
+    border-bottom-style: solid;
+    padding: .5em;
+    width: 80%;
+    margin-left: 10%;
+}

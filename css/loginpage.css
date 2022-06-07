@@ -1,0 +1,75 @@
+/*
+Title: Cookie Cutter login.css
+Name: Alex Decknadel
+Chemeketa Community College
+Class: CIS295
+Date: 04/14/2017
+Description: This document will stylize and describe the layout
+             of the Login webpage on my Cookie Cutter website.
+*/
+
+
+/* These CSS rules will describe how HTML elements will appear */
+
+body {
+    background-color: #F8F8FF;
+    font-size: 100%;
+}
+
+header {
+    float: right;
+    width: 10%;
+    margin-right: 31%;
+}
+
+main {
+    margin-top: 15%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+footer {
+    margin-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .67em;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+input[type=submit] {
+    margin-left: 10%;
+    float: right;
+    margin-top: 2%;
+}
+
+input[type=text] {
+    margin-left: 1%;
+}
+
+input[type=password] {
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+
+/* These CSS rules will describe how these classes and specific elements will appear */
+
+.smalltext {
+    text-align: center;
+    margin-right: 1%;
+}
+
+#loginform {
+    width: 60%;
+    margin-right: 20%;
+    text-align: right;
+}
+
+#homejoin {
+    margin-bottom: 5%;
+}
+
+#reminder, #incorrect {
+    color: red;
+}
